@@ -1,0 +1,112 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- raise_ticket
+- thanks
+- concern
+- inform
+- curse
+- lndFAQ
+- lnd_lock
+- outlook_issue
+- lnd_status
+- lnd_thinkhr
+- lnd_ext_trainings
+- lndFAQ/learning_plan
+- lndFAQ/mandatory_trainings
+- lndFAQ/progression_course
+- lndFAQ/promotion_criteria
+- lndFAQ/learning_hours
+- lndFAQ/maternity
+- lndFAQ/buddy
+- lndFAQ/IDP
+- lndFAQ/my_courses
+entities:
+- ticket
+templates:
+  utter_greet:
+  - text: Hello, How do you feel today?
+    buttons:
+    - title: Happy
+      payload: Happy
+    - title: Neutral
+      payload: Neutral
+    - title: Sad
+      payload: Sad
+  utter_ask_what:
+  - text: What is it you want to raise ticket for?
+  utter_which_ticket:
+  - text: Whom you want me to raise the ticket to?
+  utter_click_button:
+  - text: Click on the button below to send an email.
+  utter_curse_response:
+  - text: I dont appreciate such language. How can i help you?
+    buttons:
+    - title: Restart Conversation
+      payload: /restart
+  utter_sad_reason:
+  - text: Please tell me what makes you sad today
+  utter_thanks_reply:
+  - text: My pleasure!
+  utter_goodbye:
+  - text: Happy to help! Goodbye.  
+  utter_acc_lock:
+  - text: Please drop an email to ProU@prolifics.com They will unlock the account
+      and respond to you shortly. Click the button below to send an email.
+  utter_status:
+  - text: Please mail to prou@prolifics.com The team will validate and reply to you.
+      Click the button below to send an email.
+  utter_ext_training:
+  - text: After acquiring approval for the cost of training from the practice director,
+      raise a request to prou@prolifics.com. Please refer the learning engagement
+      policy document on PeP to know more. All external trainings and certifications
+      should be updated in the ELMS within 1 month of completion. Click the button
+      below to send an email.
+  utter_thinkhr:
+  - text: eLMS automatically updates ThinkHR courses every 48 hrs. Your courses will
+      reflect shortly. If you continue to face issues post that, please write to prou@prolifics.com.
+      Click the button below to send an email.
+  utter_non_happy:
+  - text: I am sorry, I am not sure how to help you with this.
+  utter_feedback:
+  - text: Thank you for the feedback, would you like to report the reason for being
+      sad?
+    buttons:
+    - title: Yes
+      payload: yes
+    - title: No
+      payload: no
+  utter_thanks_ask:
+  - text: Thank you once again. How can I help you today?
+  utter_ask_more:
+  - text: What else can I help you with?
+
+actions:
+- respond_lndFAQ
+- utter_greet
+- action_default_fallback
+- action_reminder
+- utter_ask_what
+- utter_which_ticket
+- utter_feedback
+- utter_sad_reason
+- utter_thanks_ask
+- utter_ask_more
+- action_send_it_email
+- utter_acc_lock
+- utter_status
+- utter_thinkhr
+- utter_ext_training
+- action_acc_lock
+- action_status
+- action_thinkhr
+- action_ext_trainings
+- utter_curse_response
+- utter_click_button
+- utter_non_happy
+- utter_thanks_reply
+- utter_goodbye

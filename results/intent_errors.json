@@ -1,0 +1,10 @@
+[
+  {
+    "text": "ithelpdesk",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "raise_ticket",
+      "confidence": 0.41064706444740295
+    }
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "Maternity leave (ML) is applicable to all married female employees of Prolifics who have worked for a minimum of 160 days in the twelve months immediately preceding the date of her expected delivery. Entitlement of Maternity leave is for 26 weeks, starting from eight weeks prior to the expected date of delivery in case of women who have less than two surviving children and in other cases, twelve weeks maternity benefit can be entitle": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "A. Each employee needs to be compliant with all learning requirements as specified by Prolifics policies, client mandates and Government laws. The list of mandatory courses is provided in learning engagement policy document on PeP. B. Each employee should obtain 10 learning credits per quarter (40 hrs/year). These credits need to be in line with the technical and behavioral objectives of their role.  C. All external trainings and certifications should be updated in the ELMS within 1 month of completion. Any delay will lead to loss of learning credits in the system. Employees need to obtain and share all pre-requisite approvals with ProU for the addition of trainings and/or certifications.": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "Plase Login to eLMS >> timeline (right side top)": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "An IDP ensures that every employee receives all necessary opportunities to meet the behavioral and performance expectations from the role. This is identified and created to address the competency gaps of an employee. These are created by the respective people managers in collaboration with the employee.": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "Your learning plan would be assigned by your manager at the start of every quarter. You should check your learning plan every month to ensure you maintain 10 hrs of learning every quarter.": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "A. The system will check the band, course completion of the employee, and suggest the CDP.": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "You need to complete Infosec Awareness every 6 months; appropriate workplace harassment course every year, GDPR. Please refer the learning engagement policy document on PeP to know more.": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "Login to eLMS >> Self >> Learning >> Learning Transcript >> export to PDF": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  " the Buddy will:Introduce the new joiner to co-workers and other key people in the department/unit. Coordinate with immediate supervisor to ensure briefing is done on Vision, Mission, achievement of Organization, work procedures, ongoing projects etc. Ensure the new joiner becomes familiar of office layout -Work desk, Pantry, Dining hall, Rest rooms, cafeteria, etc. Explain whom to contact for different issues (HR/IT/Admin etc) Answer any questions which new joiner may have or direct him/ her to the right person. Together with supervisor and L&D department, encourage him/ her to go through various knowledge portals": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3
+  },
+  "micro avg": {
+    "precision": 1.0,
+    "recall": 0.8846153846153846,
+    "f1-score": 0.9387755102040816,
+    "support": 26
+  },
+  "macro avg": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 26
+  },
+  "weighted avg": {
+    "precision": 0.8846153846153846,
+    "recall": 0.8846153846153846,
+    "f1-score": 0.8846153846153846,
+    "support": 26
+  }
+}
