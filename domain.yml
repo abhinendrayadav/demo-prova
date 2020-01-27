@@ -16,6 +16,22 @@ intents:
 - lnd_status
 - lnd_thinkhr
 - lnd_ext_trainings
+- mobile_usage
+- access_mails
+- internet_usage
+- access_sw
+- email_monitoring
+- internet_based_emails
+- remote_email_policy
+- email_encryption
+- disclaimer
+- public_holidays
+- leave_procedure
+- lwp_lop
+- mtp
+- adoption_leave
+- paternity_leave
+- harrasment_policy
 - lndFAQ/learning_plan
 - lndFAQ/mandatory_trainings
 - lndFAQ/progression_course
@@ -84,6 +100,38 @@ templates:
   - text: Thank you once again. How can I help you today?
   utter_ask_more:
   - text: What else can I help you with?
+  utter_mobile_usage:
+  - text: Employees may only use their mobile phones to check and/or make “necessary” calls; this must be in an area that does not interfere with others work.
+  utter_access_mails:
+  - text: Voice mail, computers, computer networks, electronic mail, offices, desks and lockers are provided to employees of Prolifics for official purposes only and are the property of the Company. Supervisors should be provided with all codes or keys necessary to easily access voice mail, computers, and all computer files, electronic mail, desks, offices and lockers. 
+  utter_internet_usage:
+  - text: Internet use, on Company time, is authorized to conduct Company business only. Internet use brings the possibility of breaches to the security of confidential Company information.
+  utter_access_sw:
+  - text: Any additional software needed in your system, in addition to the ones already existing, must be authorized by your supervisor based on which IT department will process such requests. If you need access to software, for which the Company does not have an existing license, please consult your supervisor. 
+  utter_remote_email_policy:
+  - text: Users shall be able to access s their e-mail account from outside the corporate network only after passing through a designated authentication mechanism. 
+  utter_internet_based_emails:
+  - text: Employees should not use any e-mail account other than the corporate account for official communications with external users;  exceptions shall need specific authorization.
+  utter_email_encryption:
+  - text: Users should not send any confidential information through e-mail unless it is encrypted or the attached document is protected from unauthorized access by means of a password.
+  utter_email_monitoring:
+  - text: The organization may, for reasons of security, intercept or otherwise monitor the mails sent through its mailing system; The company reserves the right to access and disclose the contents of all messages created, sent or received using its e-mail system.
+  utter_disclaimer:
+  - text: All e-mail sent from the organization’s mail system shall have a standard “disclaimer statement” attached to it. 
+  utter_public_holidays:
+  - text: Prolifics observes “9” national/festival holidays every calendar year. Please refer the Complete List of Holidays accessible at HR Portal.Employees working in client locations would be following the client holiday calendar.
+  utter_leave_procedure:
+  - text: You should make a leave request on Leave Management System on HR Portal only.
+  utter_lwp_lop:
+  - text:  If an employee requires leave but does not have sufficient leave balance, his/her first level manager may sanction LWP up to fourteen day; 
+  utter_mtp:
+  - text: “MTP” is applicable to all married female employees of Prolifics who have worked for a minimum of 160 days in the twelve months immediately preceding the date of her expected delivery. 
+  utter_adoption_leave:
+  - text: All employees of Prolifics who have legally adopted a child and having worked for a minimum of 80 days in the preceding 12-month period will be eligible for Special Leave. 
+  utter_paternity_leave:
+  - text: Employee will be eligible for Paternity Leave of 3 days during expected or actual delivery period of the baby.
+  utter_harrasment_policy:
+  - text: 
 
 actions:
 - respond_lndFAQ
@@ -110,3 +158,19 @@ actions:
 - utter_non_happy
 - utter_thanks_reply
 - utter_goodbye
+- utter_mobile_usage
+- utter_access_mails
+- utter_internet_usage
+- utter_access_sw
+- utter_remote_email_policy
+- utter_internet_based_emails
+- utter_email_encryption
+- utter_email_monitoring
+- utter_disclaimer
+- utter_public_holidays
+- utter_leave_procedure
+- utter_lwp_lop
+- utter_mtp
+- utter_adoption_leave
+- utter_paternity_leave
+- utter_harrasment_policy

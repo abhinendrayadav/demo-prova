@@ -114,3 +114,89 @@
 - thank you. goodbye
 - thanks goodbye
 
+## intent:mobile_usage
+- mobile
+- phone
+- cell
+- calls
+
+## intent:access_mails
+- voice mails
+- lockers
+- computer networks
+- computers
+
+## intent:internet_usage
+- internet usage
+- internet
+
+## intent:access_sw
+- software access procedure
+- sw access
+- software
+
+## intent:email_policy
+- email
+- electronic mail
+- mail
+- emails
+- email policy
+
+## intent:remote_email_policy
+- remote access to email
+- email remote access
+- remote email access
+
+## intent:internet_based_emails
+- gmail account
+- gmail
+- ymail
+- hotmail
+- yahoo mail
+
+## intent:email_encryption
+- email encryption
+- encryption
+- encrypted
+- secure
+
+## intent:email_monitoring
+- monitoring
+- monitor
+
+## intent:disclaimer
+- disclaimer
+
+## intent:public_holidays
+- public holidays
+- holidays
+- holiday
+
+## intent:leave_procedure
+- leave procedure
+- apply leave
+
+## intent:lwp_lop
+- lwp
+- lop
+- loss of pay
+- leave without pay
+
+ ## intent:mtp
+- mtp
+- medical termination of pregnancy
+
+## intent:adoption_leave
+- adoption
+- adoption leave
+- adopt
+- adopted
+
+## intent:paternity_leave
+- paternity leave
+- paternity
+
+## intent:harrasment_policy
+- harrasment
+- harras
+- abuse 
