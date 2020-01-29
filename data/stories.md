@@ -152,4 +152,115 @@
 * harrasment_policy
  - utter_harrasment_policy
 
- <!abhinendra>
+## internal complaint review policy
+* complaint_review
+ - utter_complaint_review
+
+## code of ethical conduct 
+* code_of_conduct
+ - utter_code_of_conduct
+
+## alchohol/drugs consumption
+* drugs
+ - utter_drugs
+
+# employee referal
+* emp_refer
+ - utter_emp_refer
+
+## communication
+* communication
+ - utter_communication
+
+## confidentiality
+* confidentiality
+ - utter_confidentiality
+
+## intellect_prop
+* intellect_prop
+ - utter_intellect_prop
+
+## job performance
+* job
+ - utter_job
+
+## appraisal
+* appraisal
+- utter_appraisal
+
+## variable pay
+* variable
+ - utter_variable
+
+## pip
+* pip
+ - utter_pip
+
+## race award
+* race
+ - utter_race
+
+## pf and esi emp benefits
+* pf_esi
+ - utter_pf_esi
+
+## gratuity
+* gratuity
+ - utter_gratuity
+
+## mediclaim
+* mediclaim
+ - utter_mediclaim
+
+## extra work hours
+* extra_work
+ - utter_extra_work
+
+## meal vouchers
+* meals
+ - utter_meals
+
+## deputation policy
+* deputation
+ - utter_deputation
+
+## travel policy
+* travel
+ - utter_travel
+
+## resignation policy
+* resign
+ - utter_resign
+
+## seperation
+* seperation
+ - utter_seperation
+
+## disciplinary
+* disciplinary
+ - utter_disciplinary
+
+## gardening
+* gardening
+ - utter_gardening
+
+## exit interview
+* exit_interview
+ - utter_exit_interview
+
+## protection of environment 
+* env_protection
+ - utter_env_protection
+
+## rules of conduct
+* rule_of_conduct
+ - utter_rule_of_conduct
+
+## whistleblower
+* whistleblower
+ - utter_whistleblower
+
+## contract employee policy
+* contract_emp
+ - utter_contract_emp
+ 

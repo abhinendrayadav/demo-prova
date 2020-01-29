@@ -201,4 +201,121 @@
 - harras
 - abuse 
 
-<!abhinendra>
+## intent:complaint_review
+- complaint
+
+## intent:code_of_conduct
+- code of conduct
+- ethical conduct
+
+## intent:drugs
+- drugs
+- alchohol
+- smoking
+
+## intent:emp_refer
+- refferal
+- reffer
+- refer
+
+## intent:communication
+- communication
+
+## intent:confidentiality
+- confidentiality
+- confidential
+
+## intent:intellect_prop
+- intellectual property
+
+## intent:job
+- performance
+- job performance
+
+## intent:appraisal
+- appraisal
+- appreciation
+- appreciate
+
+## intent:variable
+- variable 
+- variable pay
+
+## intent:pip
+- pip
+- performance improvement plan
+- PIP
+
+# intent:race
+- race
+- race award
+- RACE award
+- RACE
+
+## intent:pf_esi
+- pf
+- esi
+
+## intent:gratuity
+- gratuity
+
+## intent:mediclaim
+- mediclaim
+- medical claim
+- medical emergency
+- emergency
+- medics
+
+## intent:extra_work
+- extra work
+- extra hours
+- extra work hours
+
+## intent:meals
+- meal
+- meals
+- meal vouchers
+
+## intent:deputation
+- deputation
+- deputation policy
+
+## intent:travel
+- travel
+
+## intent:resign
+- resign
+- resignation
+- leave the organization
+- leave prolifics
+
+
+## intent:emp_seperation
+- seperation
+
+## intent:disciplinary
+- disciplinary
+- Disciplinary Action
+
+## intent:gardening
+- gardening
+- gardening leave
+
+## intent:exit_interview
+- exit
+- exit interview
+
+## intent:env_protection
+- environment protection
+- environment
+
+## intent:rule_of_conduct
+- rule of conduct
+- rules of conduct
+
+## intent:whistleblower
+- whistleblower
+
+## intent:contract_emp
+- contract
+- on contract employee
