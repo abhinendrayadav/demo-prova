@@ -36,11 +36,11 @@
   - A. Each employee needs to be compliant with all learning requirements as specified by Prolifics policies, client mandates and Government laws. Login to PEP portal-> Policy -> Employee Handbook to know more.
 
 ## maternity leave
-* lndFAQ/maternity
+* gen_policy/maternity
   - Maternity leave (ML) is applicable to all married female employees of Prolifics who have worked for a minimum of 160 days in the twelve months immediately preceding the date of her expected delivery. Login to PEP portal-> Policy -> Employee Handbook to know more.
 
 ## buddy policy
-* lndFAQ/buddy
+* gen_policy/buddy
   - The Buddy will:Introduce the new joiner to co-workers and other key people in the department/unit. Coordinate with immediate supervisor to ensure briefing is done on Vision, Mission, achievement of Organization, work procedures, ongoing projects etc. Login to PEP portal-> Policy -> Employee Handbook to know more.
 
 ## mobile usage
