@@ -34,10 +34,3 @@
 - promoted
 - eligibility criteria
 
-## intent:lndFAQ/maternity
-- maternity
-
-## intent:lndFAQ/buddy
-- buddy
-- supervisor
-- buddy policy

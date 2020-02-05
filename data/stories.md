@@ -167,3 +167,8 @@
  - utter_contract_emp
  - utter_ask_more
  
+## general policies
+* gen_policy
+ - respond_gen_policy
+ - utter_ask_more
+ 
