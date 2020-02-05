@@ -32,8 +32,6 @@ intents:
 - lndFAQ/progression_course
 - lndFAQ/promotion_criteria
 - lndFAQ/learning_hours
-- lndFAQ/maternity
-- lndFAQ/buddy
 - lndFAQ/IDP
 - lndFAQ/my_courses
 entities:
