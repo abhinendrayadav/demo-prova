@@ -17,12 +17,12 @@ action_endpoint:
 # By default the conversations are stored in memory.
 # https://rasa.com/docs/rasa/api/tracker-stores/
 
-#tracker_store:
-#    type: redis
-#    url: <host of the redis instance, e.g. localhost>
-#    port: <port of your redis instance, usually 6379>
-#    db: <number of your database within redis, e.g. 0>
-#    password: <password used for authentication>
+tracker_store:
+   type: redis
+   url: <host of the redis instance, e.g. localhost>
+   port: <port of your redis instance, usually 6379>
+   db: <number of your database within redis, e.g. 0>
+   password: <password used for authentication>
 
 #tracker_store:
 #    type: mongod
@@ -39,3 +39,7 @@ action_endpoint:
 #  username: username
 #  password: password
 #  queue: queue
+
+
+XPEogtPJlI-nFOgktavXytmNJVO5ddUIdQeKT20VZ_6r
+https://api.us-east.discovery.watson.cloud.ibm.com/instances/f5edcf88-08d9-4afc-af95-58c158f3021d

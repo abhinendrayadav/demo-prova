@@ -51,15 +51,14 @@
 
 * greet
     - utter_greet
-* mood_great
-    - utter_thanks_ask
+    - utter_ask_more
+    
 
 ## greet with user saying sad and giving reason
 
 * greet
     - utter_greet
-* mood_unhappy
-    - utter_feedback
+    - utter_ask_more
 
 ## mood sad
 * affirm
@@ -70,10 +69,6 @@
 ## thanks 
 * thanks
     - utter_thanks_reply
-
-## greet with user saying sad and denying for feedback
-* deny
-    - utter_thanks_ask
 
 ## outlook
 
@@ -87,180 +82,88 @@
  - utter_thanks_reply
  - utter_goodbye
 
-## mobile phone usage policy
-* mobile_usage
- - utter_mobile_usage
+## common_property
+* common_property
+ - respond_common_property
+ - utter_ask_more 
 
-## voice mails, files, emails lockers access
-* access_mails
- - utter_access_mails
- 
-## internet usage policy
-* internet_usage
- - utter_internet_usage
+## holiday_leaves
+* holiday_leaves
+  - respond_holiday_leaves
+  - utter_ask_more
 
-## software access procedure
-* access_sw
- - utter_access_sw
+## voilance
+* voilance
+ - respond_voilance
+ - utter_ask_more
 
-## remote access to email account
-* remote_email_policy
- - utter_remote_email_policy
+## equal_opportunity
+* equal_opportunity
+ - respond_equal_opportunity
+ - utter_ask_more
 
-## internet based mail access
-* internet_based_emails
- - utter_internet_based_emails
-
-## encryption of emails
-* email_encryption
- - utter_email_encryption
-
-## email monitoring
-* email_monitoring
- - utter_email_monitoring
-
-## disclaimer
-* disclaimer
- - utter_disclaimer
-
-## public holidays
-* public_holidays
- - utter_public_holidays
-
-## leave procedure
-* leave_procedure
- - utter_leave_procedure
-
-
-## lwp and lop
-* lwp_lop
- - utter_lwp_lop
-
-## mtp 
-* mtp
- - utter_mtp
-
-## adoption leave
-* adoption_leave
- - utter_adoption_leave
-
-## paternity leave
-* paternity_leave
- - utter_paternity_leave
-
-## harrasment policy
-* harrasment_policy
- - utter_harrasment_policy
-
-## internal complaint review policy
-* complaint_review
- - utter_complaint_review
-
-## code of ethical conduct 
-* code_of_conduct
- - utter_code_of_conduct
-
-## alchohol/drugs consumption
-* drugs
- - utter_drugs
-
-# employee referal
+## emp_refer
 * emp_refer
  - utter_emp_refer
+ - utter_ask_more
 
 ## communication
 * communication
  - utter_communication
+ - utter_ask_more
 
 ## confidentiality
 * confidentiality
  - utter_confidentiality
+ - utter_ask_more
 
 ## intellect_prop
 * intellect_prop
  - utter_intellect_prop
+ - utter_ask_more
 
-## job performance
-* job
- - utter_job
+## performance
+* performance
+ - respond_performance
+ - utter_ask_more
 
-## appraisal
-* appraisal
-- utter_appraisal
+## benefits
+* benefits
+ - respond_benefits
+ - utter_ask_more
 
-## variable pay
-* variable
- - utter_variable
-
-## pip
-* pip
- - utter_pip
-
-## race award
-* race
- - utter_race
-
-## pf and esi emp benefits
-* pf_esi
- - utter_pf_esi
-
-## gratuity
-* gratuity
- - utter_gratuity
-
-## mediclaim
-* mediclaim
- - utter_mediclaim
-
-## extra work hours
-* extra_work
- - utter_extra_work
-
-## meal vouchers
-* meals
- - utter_meals
-
-## deputation policy
+## deputation
 * deputation
  - utter_deputation
+ - utter_ask_more
 
-## travel policy
+## travel
 * travel
  - utter_travel
-
-## resignation policy
-* resign
- - utter_resign
+ - utter_ask_more
 
 ## seperation
 * seperation
- - utter_seperation
+ - respond_seperation
+ - utter_ask_more
 
-## disciplinary
-* disciplinary
- - utter_disciplinary
-
-## gardening
-* gardening
- - utter_gardening
-
-## exit interview
-* exit_interview
- - utter_exit_interview
-
-## protection of environment 
+## env_protection
 * env_protection
  - utter_env_protection
+ - utter_ask_more
 
-## rules of conduct
+## rule_of_conduct
 * rule_of_conduct
  - utter_rule_of_conduct
+ - utter_ask_more
 
 ## whistleblower
 * whistleblower
  - utter_whistleblower
+ - utter_ask_more
 
-## contract employee policy
+## contract_emp
 * contract_emp
  - utter_contract_emp
+ - utter_ask_more
  

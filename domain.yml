@@ -11,54 +11,22 @@ intents:
 - inform
 - curse
 - lndFAQ
+- gen_policy
 - lnd_lock
 - outlook_issue
 - lnd_status
 - lnd_thinkhr
 - lnd_ext_trainings
-- mobile_usage
-- access_mails
-- internet_usage
-- access_sw
-- email_monitoring
-- internet_based_emails
-- remote_email_policy
-- email_encryption
-- disclaimer
-- public_holidays
-- leave_procedure
-- lwp_lop
-- mtp
-- adoption_leave
-- paternity_leave
-- harrasment_policy
-- complaint_review
-- code_of_conduct
-- drugs
 - emp_refer
 - communication
 - confidentiality
 - intellect_prop
-- job
-- utter_appraisal
-- utter_variable
-- utter_pip
-- utter_race
-- utter_pf_esi
-- utter_gratuity
-- utter_mediclaim
-- utter_extra_work
-- utter_meals
-- utter_deputation
-- utter_travel
-- utter_resign
-- utter_seperation
-- utter_disciplinary
-- utter_exit_interview
-- utter_env_protection
-- utter_rule_of_conduct
-- utter_whistleblower
-- utter_contract_emp
+- deputation
+- travel
+- env_protection
+- rule_of_conduct
+- whistleblower
+- contract_emp
 - lndFAQ/learning_plan
 - lndFAQ/mandatory_trainings
 - lndFAQ/progression_course
@@ -72,14 +40,7 @@ entities:
 - ticket
 templates:
   utter_greet:
-  - text: Hello, How do you feel today?
-    buttons:
-    - title: Happy
-      payload: Happy
-    - title: Neutral
-      payload: Neutral
-    - title: Sad
-      payload: Sad
+  - text: Hello, How can i help?
   utter_ask_what:
   - text: What is it you want to raise ticket for?
   utter_which_ticket:
@@ -115,56 +76,10 @@ templates:
       Click the button below to send an email.
   utter_non_happy:
   - text: I am sorry, I am not sure how to help you with this.
-  utter_feedback:
-  - text: Thank you for the feedback, would you like to report the reason for being
-      sad?
-    buttons:
-    - title: Yes
-      payload: yes
-    - title: No
-      payload: no
   utter_thanks_ask:
   - text: Thank you once again. How can I help you today?
   utter_ask_more:
   - text: What else can I help you with?
-  utter_mobile_usage:
-  - text: Employees may only use their mobile phones to check and/or make “necessary” calls; this must be in an area that does not interfere with others work.
-  utter_access_mails:
-  - text: Voice mail, computers, computer networks, electronic mail, offices, desks and lockers are provided to employees of Prolifics for official purposes only and are the property of the Company. Supervisors should be provided with all codes or keys necessary to easily access voice mail, computers, and all computer files, electronic mail, desks, offices and lockers. 
-  utter_internet_usage:
-  - text: Internet use, on Company time, is authorized to conduct Company business only. Internet use brings the possibility of breaches to the security of confidential Company information.
-  utter_access_sw:
-  - text: Any additional software needed in your system, in addition to the ones already existing, must be authorized by your supervisor based on which IT department will process such requests. If you need access to software, for which the Company does not have an existing license, please consult your supervisor. 
-  utter_remote_email_policy:
-  - text: Users shall be able to access s their e-mail account from outside the corporate network only after passing through a designated authentication mechanism. 
-  utter_internet_based_emails:
-  - text: Employees should not use any e-mail account other than the corporate account for official communications with external users;  exceptions shall need specific authorization.
-  utter_email_encryption:
-  - text: Users should not send any confidential information through e-mail unless it is encrypted or the attached document is protected from unauthorized access by means of a password.
-  utter_email_monitoring:
-  - text: The organization may, for reasons of security, intercept or otherwise monitor the mails sent through its mailing system; The company reserves the right to access and disclose the contents of all messages created, sent or received using its e-mail system.
-  utter_disclaimer:
-  - text: All e-mail sent from the organization’s mail system shall have a standard “disclaimer statement” attached to it. 
-  utter_public_holidays:
-  - text: Prolifics observes “9” national/festival holidays every calendar year. Please refer the Complete List of Holidays accessible at HR Portal.Employees working in client locations would be following the client holiday calendar.
-  utter_leave_procedure:
-  - text: You should make a leave request on Leave Management System on HR Portal only.
-  utter_lwp_lop:
-  - text:  If an employee requires leave but does not have sufficient leave balance, his/her first level manager may sanction LWP up to fourteen day; 
-  utter_mtp:
-  - text: “MTP” is applicable to all married female employees of Prolifics who have worked for a minimum of 160 days in the twelve months immediately preceding the date of her expected delivery. 
-  utter_adoption_leave:
-  - text: All employees of Prolifics who have legally adopted a child and having worked for a minimum of 80 days in the preceding 12-month period will be eligible for Special Leave. 
-  utter_paternity_leave:
-  - text: Employee will be eligible for Paternity Leave of 3 days during expected or actual delivery period of the baby.
-  utter_harrasment_policy:
-  - text: The three basic criteria established by the guidelines to determine whether an act, including "unwelcome sexual advances, requests for sexual favors and other verbal and physical conduct of a sexual nature" constitutes unlawful sexual harassment in violation of Indian Laws
-  utter_complaint_review:
-  - text: Employees should file written complaints with Human Resources as soon as possible after the events that give rise to the employee’s work-related concerns. The written complaint should set forth in detail the reasons for the employee’s complaint. 
-  utter_code_of_conduct:
-  - text:  An internal enquiry will be held and HR will investigate the matter, meeting separately with the employee and with others who may have knowledge of the facts
-  utter_drugs:
-  - text: Prolifics operates a no-smoking policy in the workplace. Smoking is not permitted anywhere in the building including the staircases and fire escapes.  
   utter_emp_refer:
   - text: The purpose of this policy is to recognize and reward employee's contribution in attracting new talent to the organization.
   utter_communication:
@@ -173,31 +88,6 @@ templates:
   - text: are required to maintain such information in strict confidence. This policy benefits you, as an employee, by protecting the interests of the Company in the safeguard of confidential, unique and valuable information from competitors or other
   utter_intellect_prop:
   - text: Prolifics obligates all employees to respect, regard and protect the Intellectual Property as utmost Confidential Information at the highest end. The Employees must understand that this Intellectual Property as invaluable, which has been developed over many man years of efforts by Prolifics
-  utter_job:
-  - text: An employee may be disciplined for poor job performance.However, Prolifics reserves the right to proceed directly to termination without resorting to prior disciplinary steps when deemed appropriate.    
-  utter_appraisal:
-  - text: The purpose of this policy is to measure individual performance against the predefined SMART goals and targets given for each financial year on Annual basis and share the feedback and improvement areas
-  utter_variable:
-  - text: Variable compensation is an annual component. It is paid out half-yearly based on organizational, unit, and individual performance, gross margin and year over year quarterly growth. 
-  utter_pip:
-  - text: All PIPs will state the specific actions required to correct the problem, the time frame in which they must be completed, and the consequences if the problem persists. Employees will be provided an opportunity to sign and add their own comments
-  utter_race:
-  - text: The selection of best performer shall be left to the sole discretion of the Unit/Division Head/Head HR
-  utter_pf_esi:
-  - text: Prolifics is a member of the Regional Provident Fund as required by the Indian law. Please refer the below link for more details. 
-  - text: https://www.epfindia.gov.in/site_en/
-  utter_gratuity:
-  - text: After five years of continuous service, the Company will provide gratuity on termination/ retirement / resignation of the employment.  
-  - text: Please refer the below link for more details. 
-  - text: http://www.gratuity.org.in/
-  utter_mediclaim:
-  - text: FTE Employee with Gross Wages less than Rs 21,000 PM are eligible for ESI and hence will be excluded from Medi-claim. 
-  - text: Full time employees who are not covered under ESI (Wages greater than 21,000 PM) will be covered under GMC policy
-  - text: Please contact respective HRBP for more details.
-  utter_extra_work:
-  - text: This Policy is designed to provide benefits to employees required to work on overtime/ holidays/ weekends. 
-  utter_meals:
-  - text: Prolifics provides meal vouchers to all employees as a tax saving component. This amount is determined as per the eligibility of the employee and is part of CTC. 
   utter_deputation:
   - text: The purpose of deputation policy is to define conditions under which any official travel is considered as Deputation and fix the monthly entitlements
   utter_travel:
@@ -205,16 +95,6 @@ templates:
   - text: Domestic 
   - text: International
   - text: Local conveyance while on travel 
-  utter_resign:
-  - text: In the event you decide to voluntarily resign your employment, you will be expected to serve a notice of 3 months. Exceptions are for employees who have recently returned from any foreign assignment. In such instances, the notice period will be as per the Travel Policy
-  utter_seperation:
-  - text: Prolifics recognizes that sometimes circumstances arise when it is necessary for the Company to terminate an employment relationship due to misconduct of an employee or for other business or economic reasons. Prolifics reserves the right to terminate the employment relationship with an appropriate notice
-  utter_disciplinary:
-  - text: Disciplinary or corrective action for unsatisfactory job performance or misconduct is normally imposed on a progressive basis and in consultation with a representation of the division of Human Resources.
-  utter_gardening:
-  - text: The purpose of Gardening Leave policy is to keep the voluntarily/involuntarily resigned employees (who are unproductive) away from work during the whole / part of the notice period, while still keeping them on the company payroll.
-  utter_exit_interview:
-  - text: All departing employees are requested to participate in an exit interview in which the reasons for leaving will be discussed. Information gained will be used to monitor staff turnover and identify potential problem areas. 
   utter_env_protection:
   - text: Prolifics will also comply with any additional environmental requirements specific to the products or services that the Company is providing to customers as called for in design specifications and contract documents
   utter_rule_of_conduct:
@@ -224,16 +104,23 @@ templates:
   - text: A whistleblower as defined by this policy is an employee of Prolifics or its affiliates who reports an activity that he/she considers to be illegal or dishonest to one or more of the parties specified in this Policy. 
   utter_contract_emp:
   - text: All contract employees should follow the organization policies and procedures mentioned in the Employee Handbook
-  - text: Joining and exit process should be same as full time employees. 
+  - text: Joining and exit process should be same as full time employees.
 
 actions:
 - respond_lndFAQ
+- respond_common_property
+- respond_holiday_leaves
+- respond_voilance
+- respond_equal_opportunity
+- respond_performance
+- respond_benefits
+- respond_seperation
+- respond_gen_policy
 - utter_greet
 - action_default_fallback
 - action_reminder
 - utter_ask_what
 - utter_which_ticket
-- utter_feedback
 - utter_sad_reason
 - utter_thanks_ask
 - utter_ask_more
@@ -251,46 +138,12 @@ actions:
 - utter_non_happy
 - utter_thanks_reply
 - utter_goodbye
-- utter_mobile_usage
-- utter_access_mails
-- utter_internet_usage
-- utter_access_sw
-- utter_remote_email_policy
-- utter_internet_based_emails
-- utter_email_encryption
-- utter_email_monitoring
-- utter_disclaimer
-- utter_public_holidays
-- utter_leave_procedure
-- utter_lwp_lop
-- utter_mtp
-- utter_adoption_leave
-- utter_paternity_leave
-- utter_harrasment_policy
-- utter_complaint_review
-- utter_code_of_conduct
-- utter_drugs
 - utter_emp_refer
 - utter_communication
 - utter_confidentiality
 - utter_intellect_prop
-- utter_job
-- utter_appraisal
-- utter_variable
-- utter_pip
-- utter_race
-- utter_pf_esi
-- utter_gratuity
-- utter_mediclaim
-- utter_extra_work
-- utter_meals
 - utter_deputation
 - utter_travel
-- utter_resign
-- utter_seperation
-- utter_disciplinary
-- utter_gardening
-- utter_exit_interview
 - utter_env_protection
 - utter_rule_of_conduct
 - utter_whistleblower
